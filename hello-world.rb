@@ -9,6 +9,7 @@ class HelloWorld < Formula
 
     bottle do
         root_url "https://homebrew-tap-test.b-cdn.net"
+        rebuild 1
         sha256 cellar: :any_skip_relocation, arm64_sequoia: "469f89926c8f42dd64cef164ef8ccef38672139dfc251098abbd1ff2c2fecf52"
     end
 
